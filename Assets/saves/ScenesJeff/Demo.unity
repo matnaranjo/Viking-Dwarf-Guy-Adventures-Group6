@@ -752,7 +752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  groundDist: 0
+  groundDist: 1.8
   terrainLayer:
     serializedVersion: 2
     m_Bits: 64
