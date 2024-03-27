@@ -15,12 +15,13 @@ public class PlaceSpawners : MonoBehaviour
 
     private void place(){
         int count=0;
-        for (int i = -40; i <=40;i+=10){
-            for (int j = -40; j<=40; j+=10){
-                spawners[count].transform.position = new Vector3(i, 1, j);
+        for (int i = -100; i <=100;i+=10){
+            for (int j = -100; j<=100; j+=10){
+                spawners[count].transform.position = new Vector3(i, 5, j);
                 count++;
             }
         }
+        
     }
 
 }
